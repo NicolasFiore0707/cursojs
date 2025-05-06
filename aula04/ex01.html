@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sczale=1.0">
+    <title>Aula de JS</title>
+    <style>
+        body {
+            background-color: blue;
+            color: white;
+        font: normal 20pt Arial;
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Este e meu primeiro Script em JS!!</h1>
+        <p>Olá, mundo!!</p>
+    </header>
+    <body>
+        <h1>Olá, mundo!</h1>
+    <p>Já me safei da madição</p>
+
+    <button onclick="contar()">Clique aqui</button>
+    <p id="resultado">Cliques: 0</p>
+    </body>
+ <script>
+    window.alert('Minha primeira mensagem !')
+    window.confirm('Está gostando de JavaScript ?')
+    window.prompt('Qual é seu nome ? ');
+    let cliques = 0;
+    function contar () {
+        cliques++;
+        document.getElementById("resultado ").innerText = "Cliques: " + cliques;
+    }
+     
+ </script>
+</html>
+
+
